@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Suite]">
+  <test thread-count="5" name="Login and Add User Tests(failed)">
+    <classes>
+      <class name="tests.AddUserTests">
+        <methods>
+          <include name="setup"/>
+          <include name="addNewUserTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.AddUserTests -->
+      <class name="tests.LoginTests">
+        <methods>
+          <include name="invalidLoginTest"/>
+          <include name="validLoginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.LoginTests -->
+    </classes>
+  </test> <!-- Login and Add User Tests(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Suite] -->

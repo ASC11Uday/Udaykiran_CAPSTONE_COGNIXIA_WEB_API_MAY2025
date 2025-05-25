@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OrangeHRM Suite" parallel="false">
+
+    <test name="Login and Add User Tests">
+        <classes>
+            <class name="tests.LoginTests" />
+            <class name="tests.AddUserTests" />
+            <class name="tests.BuzzTests" />
+        </classes>
+    </test>
+
+</suite>

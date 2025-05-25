@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-25T20:32:35 IST" name="OrangeHRM Suite" finished-at="2025-05-25T20:34:08 IST" duration-ms="93569">
+    <groups>
+    </groups>
+    <test started-at="2025-05-25T20:32:35 IST" name="Login and Add User Tests" finished-at="2025-05-25T20:34:08 IST" duration-ms="93569">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:tests.LoginTests@411f53a0]" started-at="2025-05-25T20:32:34 IST" name="loadConfig" finished-at="2025-05-25T20:32:35 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@411f53a0]" started-at="2025-05-25T20:32:35 IST" name="setup" finished-at="2025-05-25T20:32:45 IST" duration-ms="10537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest()[pri:1, instance:tests.LoginTests@411f53a0]" started-at="2025-05-25T20:32:45 IST" name="validLoginTest" finished-at="2025-05-25T20:32:51 IST" duration-ms="5729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@411f53a0]" started-at="2025-05-25T20:32:51 IST" name="tearDown" finished-at="2025-05-25T20:32:56 IST" duration-ms="5204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTests@411f53a0]" started-at="2025-05-25T20:32:56 IST" name="setup" finished-at="2025-05-25T20:33:04 IST" duration-ms="8358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidLoginTest()[pri:2, instance:tests.LoginTests@411f53a0]" started-at="2025-05-25T20:33:04 IST" name="invalidLoginTest" finished-at="2025-05-25T20:33:11 IST" duration-ms="6633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@411f53a0]" started-at="2025-05-25T20:33:11 IST" name="tearDown" finished-at="2025-05-25T20:33:16 IST" duration-ms="4696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTests -->
+      <class name="tests.BuzzTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BuzzTests@5b7a5baa]" started-at="2025-05-25T20:33:45 IST" name="setup" finished-at="2025-05-25T20:33:54 IST" duration-ms="8182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="postMessageOnBuzzTest()[pri:4, instance:tests.BuzzTests@5b7a5baa]" started-at="2025-05-25T20:33:54 IST" name="postMessageOnBuzzTest" finished-at="2025-05-25T20:34:03 IST" duration-ms="9327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMessageOnBuzzTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BuzzTests@5b7a5baa]" started-at="2025-05-25T20:34:03 IST" name="tearDown" finished-at="2025-05-25T20:34:08 IST" duration-ms="5160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BuzzTests -->
+      <class name="tests.AddUserTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AddUserTests@5bf0d49]" started-at="2025-05-25T20:33:16 IST" name="setup" finished-at="2025-05-25T20:33:25 IST" duration-ms="9446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewUserTest()[pri:3, instance:tests.AddUserTests@5bf0d49]" started-at="2025-05-25T20:33:25 IST" name="addNewUserTest" finished-at="2025-05-25T20:33:40 IST" duration-ms="14684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUserTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddUserTests@5bf0d49]" started-at="2025-05-25T20:33:40 IST" name="tearDown" finished-at="2025-05-25T20:33:45 IST" duration-ms="5493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddUserTests -->
+    </test> <!-- Login and Add User Tests -->
+  </suite> <!-- OrangeHRM Suite -->
+</testng-results>
